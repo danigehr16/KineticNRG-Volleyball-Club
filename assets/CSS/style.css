@@ -35,7 +35,19 @@
 }
 .textHeader {
     font-family:'Josefin Sans', sans-serif;
+    margin-right: 80px;
+    margin-left: 10px;
+    float: inline-start;
+    background: none;
+
 }
+#homeButton {
+    margin-left: 40px;
+}
+#contactButton {
+    margin-left: 0px;
+}
+
 
 #phone {
     float: left;
@@ -67,8 +79,8 @@
 .jumbotron {
     text-align: center;
     background-color: lightgray;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 #name {
@@ -81,10 +93,24 @@
     border-width: 2px;
     border-style: solid;
 }
+.container {
+    margin-top: 40px;
+}
 
 
 #socialMedia {
     margin-right: 10px;
     padding-top: 5px;
+}
+
+#carouselExampleFade {
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+}
+
+#buttons {
+    padding-top: 50px;
+    margin-top: 0px;
+    background-color: lightgray;
 }
 
